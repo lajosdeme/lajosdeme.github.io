@@ -1,0 +1,470 @@
+
+/*--------------------- Top ---------------------------- */
+#top {
+  background-color: #252A34
+}
+
+.lead {
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 0
+}
+
+.fa-chevron-right:hover {
+  color: red;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.name-title {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2em !important;
+  text-align: center;
+  font-weight: 500;
+}
+
+.ml12 {
+  font-size: 2rem !important
+}
+
+@media (max-width: 600px) {
+  .name-title {
+    font-size: 1.5rem !important ;
+  }
+  .ml12 {
+    font-size: 1.3rem !important
+  }
+}
+
+.text-container {
+  padding-top: 15rem
+}
+
+.text-col {
+  padding-top: 2rem
+}
+
+.work-btn {
+  color: #e1f2fb
+}
+
+/* ------------------------------- About ------------------------- */
+#about, #blog {
+  background-color: #e1f2fb;
+}
+
+.title {
+  padding: 3rem 0 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  transform: scale(0.9);
+  padding-top: 1rem
+}
+
+.about-description {
+  font-family: "Raleway";
+  font-size: 1.3rem
+}
+
+@media (max-width: 800px) {
+  .about-description {
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-description {
+    font-family: "Raleway";
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.social {
+  color: inherit;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.social:hover {
+  color: inherit;
+}
+
+/* -------------------------- Portfolio ------------------- */
+
+
+.title-container {
+  margin:  auto;
+}
+
+.project-container {
+  padding-bottom: 10rem
+}
+
+.app-description {
+  font-family: 'Raleway';
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+.chirps-app-description {
+  font-family: 'Raleway';
+  font-size: 1rem;
+  padding-top: 2rem;
+  text-align: right;
+}
+
+.buttons-row {
+  padding-top: 2rem;
+}
+
+.more-btn {
+  padding-right: 10rem
+}
+
+.tempo-screens {
+  padding-left: 3rem;
+}
+
+.biz-screens {
+  padding-left: 3rem;
+}
+
+.app-store-button {
+  background: url('../images/app-store-button.png') no-repeat;
+  height: 50px;
+  width: 150px
+}
+
+.git-button {
+  background: url('../images/git.png') no-repeat;
+  width: 200px;
+  height: 74px;
+}
+
+.card {
+  background-color: transparent;
+  border-color: transparent
+}
+
+.tech-title {
+  color: red;
+  font-weight: 600
+}
+
+.tech-description {
+  font-family: 'Raleway';
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.chirps-tech {
+  text-align: right;
+}
+
+@media (max-width: 1340px) {
+  .tempo-screens, .chirps-screens, .biz-screens {
+    width: 550px
+  }
+}
+
+@media (max-width: 1144px) and (min-width: 991px) {
+  .tempo-screens, .chirps-screens, .biz-screens {
+    width: 470px
+  }
+}
+
+
+@media (max-width: 990px) {
+  .chirps-app-description {
+    text-align: left;
+  }
+
+  .chirps-tech {
+    text-align: left;
+  }
+
+  .chirps-btns {
+    float: left !important
+  }
+
+  .tempo-screens, .chirps-screens, .biz-screens {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .tempo-screens, .chirps-screens, .biz-screens {
+
+    padding-top: 5rem;
+    width: 550px
+  }
+}
+
+@media (max-width: 612px) {
+  .more-btn {
+    padding-left: 1rem
+  }
+
+  .tempo-screens, .chirps-screens, .biz-screens {
+    padding-left: 0;
+    padding-top: 5rem;
+    width: 460px
+  }
+
+  .app-title {
+    font-size: 2rem
+  }
+
+  .app-icon {
+    transform: scale(0.8);
+  }
+
+  .app-description, .chirps-app-description, .tech-title, .tech-description {
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+
+  .dates-img {
+    text-align: center;
+    width: 440px;
+  }
+}
+
+/* ---------------------------------. carousel ---------------------------------- */
+
+.modal-dialog {
+  width: 338px
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-content {
+  width: 340px
+}
+
+.modal-body {
+  padding: 0
+}
+
+
+/*--------------- Blog ------------------------- */
+.paperless-img {
+  height: 261.3px
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+}
+
+.contact-description-lg {
+  font-family: "Raleway";
+  font-size: 1.3rem
+}
+
+.contact-description {
+  font-family: "Raleway";
+  font-size: 1.3rem;
+  padding: 2rem 0 2rem 0
+
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.my-email {
+  margin-bottom: 5rem;
+}
+
+.email-ref {
+  color: white
+}
+
+
+.text-muted {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* nav bar */
+.nav-masthead .nav-link {
+  padding: 1.5rem 3rem ;
+  font-weight: 700;
+  color: gray;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(55, 55, 55, .50);
+}
+/*
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+*/
+.nav-masthead .active {
+  color: #ff2e63;
+  border-bottom-color: #ff2e63;
+}
+
+#navbar {
+  transition: top 0.3s
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* toggle switch */
+
+/* The switch - the box around the slider */
+.switch {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  z-index: 1
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: attr(data-before);
+  color: #f67280;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;;
+}
+
+input:checked + .slider {
+  background-color: #21243d;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* letter animation */
+.ml12 {
+  color: white;
+  font-weight: 200;
+  font-size: 1.8em;
+  letter-spacing: 0.3em;
+
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* letter animation */
+.ml11 {
+
+  font-size: 1.8em;
+  letter-spacing: 0.3em;
+
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* waves */
+svg {
+  display: block;
+  width: 100%;
+  // height: auto;
+}
+
+.top {
+  position: relative;
+
+  color: #fff;
+  text-align: center;
+  background-color: #161e38;
+  h1 {
+    margin:0;
+  }
+}
+
+.section {
+
+  color: #fff;
+  text-align: center;
+  background-color: #1a2e48;
+
+}
+
+.sub {
+  width: 30px;
+  background-color: transparent;
+  border: 0;
+  color: #fff !important;
+  text-align: right;
+}
