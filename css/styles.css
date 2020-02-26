@@ -145,7 +145,7 @@ h1 {
 }
 
 .app-store-button {
-  background: url('../images/app-store-button.png') no-repeat;
+  background: url('../images/app-store-button.svg') no-repeat;
   height: 50px;
   width: 150px
 }
@@ -245,7 +245,7 @@ h1 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 474px) {
 
   .app-icon {
     transform: scale(0.7);
@@ -272,6 +272,14 @@ h1 {
 }
 
 @media (max-width: 305px) {
+  .name-title {
+    font-size: 1rem !important
+  }
+
+  .ml12 {
+    font-size: 1rem !important
+  }
+
   .app-icon {
     transform: scale(0.5);
   }
