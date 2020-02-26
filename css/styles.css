@@ -245,6 +245,32 @@ h1 {
   }
 }
 
+@media (max-width: 400px) {
+
+  .app-icon {
+    transform: scale(0.7);
+  }
+
+  .app-title {
+    font-size: 1.8rem
+  }
+
+  .tempo-screens, .chirps-screens, .biz-screens {
+    padding-left: 0;
+    padding-top: 3rem;
+    width: 330px
+  }
+
+  .dates-img {
+    text-align: center;
+    width: 330px
+  }
+
+  .more-btn {
+    padding: 0;
+  }
+}
+
 /* ---------------------------------. carousel ---------------------------------- */
 
 .modal-dialog {
