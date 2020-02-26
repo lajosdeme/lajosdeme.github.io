@@ -271,6 +271,31 @@ h1 {
   }
 }
 
+@media (max-width: 305px) {
+  .app-icon {
+    transform: scale(0.5);
+  }
+
+  .app-title {
+    font-size: 1.5rem
+  }
+
+  .tempo-screens, .chirps-screens, .biz-screens {
+    padding-left: 0;
+    padding-top: 3rem;
+    width: 300px
+  }
+
+  .dates-img {
+    text-align: center;
+    width: 300px
+  }
+
+  .more-btn {
+    padding: 0;
+  }
+}
+
 /* ---------------------------------. carousel ---------------------------------- */
 
 .modal-dialog {
