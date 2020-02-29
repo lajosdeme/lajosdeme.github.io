@@ -2,7 +2,7 @@
 body {
   background-color: transparent
 }
-  
+
 /*--------------------- Top ---------------------------- */
 #top {
   background-color: #252A34
@@ -275,7 +275,7 @@ h1 {
   }
 }
 
-@media (max-width: 305px) {
+@media (max-width: 320px) {
   .name-title {
     font-size: 1rem !important
   }
