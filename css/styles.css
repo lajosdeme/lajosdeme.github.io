@@ -368,6 +368,25 @@ article {
   text-align: center;
 }
 
+#blogCarousel {
+  padding-bottom: 100px
+}
+
+.blog .carousel-indicators {
+  left: 0;
+  top: -70px;
+  height: 50%;
+}
+
+
+.blog .carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 0;
+  background: #708198;
+}
+
 /* ----------------------------------------------------------------------------------- */
 /* nav bar */
 .nav-masthead .nav-link {

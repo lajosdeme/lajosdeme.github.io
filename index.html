@@ -101,7 +101,7 @@
           <p>I really love building software and creating responsive user interfaces by following design specification pixel by pixel.</p>
           <p>I'm obsessed with how technology is progressing and I'm on a continuous quest to learn as much as I can. That involves a passion for immersing myself in new and exciting technologies and improving my craft by going ever deeper into the
             details of what I already know.</p>
-            <p>I have a law degree but I found my passion in software.</p>
+          <p>I have a law degree but I found my passion in software.</p>
           <p>I also love books, travelling, and strong black coffee.</p>
         </div>
       </div>
@@ -440,35 +440,92 @@
     <h1 class="title">Blog</h1>
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img class="card-img-top" src="images/bigO.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Algorithms and Data Structures in Swift: Big-O Notation</h5>
-              <h6 class="card-subtitle mb-2 text-muted">February 17, 2020</h6>
-              <p class="card-text">In this article, we will deep dive into Big-O Notation, write our first algorithm and illustrate the importance of the growth of an algorithm’s run time through... <a
-                  href="https://levelup.gitconnected.com/algorithms-and-data-structures-in-swift-big-o-notation-579fdd38f3d8" target="_blank">Read more</a> </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">10 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row blog">
+        <div class="col-md-12">
+          <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel" touch="true">
+            <ol class="carousel-indicators">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-4">
+                      <img class="card-img-top" src="images/cow.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Understand Copy-on-Write in Swift 5</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">February 17, 2020</h6>
+                        <p class="card-text">In this article, we will find out what copy-on-write is and why it’s absolutely awesome. We will also learn how it works and how we can... <a
+                            href="https://medium.com/better-programming/understand-copy-on-write-in-swift-5-52a4716165a3" target="_blank">Read more</a> </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="text-muted">4 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img class="card-img-top paperless-img" src="images/paperless.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">My Plan to Code A Paperless Future</h5>
-              <h6 class="card-subtitle mb-2 text-muted">April 24, 2019</h6>
-              <p class="card-text">A year ago I was fresh out of law school working as a corporate lawyer. I hated it. From a young age, I wanted to make a positive impact on... <a
-                  href="https://medium.com/hackernoon/my-plan-to-code-a-paperless-future-dea0571812e4" target="_blank">Read more</a> </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">10 mins</small>
+                  <div class="col-md-4">
+                    <div class="card mb-4">
+                      <img class="card-img-top" src="images/segue.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Unwind Segues in Swift 5</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">March 4, 2020</h6>
+                        <p class="card-text">A segue creates a new view controller instance, but it can not “decreate” that view controller, or some preceding ones. Once a segue is triggered, it can not go... <a
+                            href="https://medium.com/flawless-app-stories/unwind-segues-in-swift-5-e392134c65fd" target="_blank">Read more</a> </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="text-muted">5 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card mb-4">
+                      <img class="card-img-top" src="images/bigO.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Algorithms and Data Structures in Swift: Big-O Notation</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">February 17, 2020</h6>
+                        <p class="card-text">In this article, we will deep dive into Big-O Notation, write our first algorithm and illustrate the importance of the growth of an algorithm’s run time through... <a
+                            href="https://levelup.gitconnected.com/algorithms-and-data-structures-in-swift-big-o-notation-579fdd38f3d8" target="_blank">Read more</a> </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="text-muted">10 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- row end -->
+              </div>
+              <!-- first carousel item end -->
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-4">
+                      <img class="card-img-top paperless-img" src="images/paperless.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">My Plan to Code A Paperless Future</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">April 24, 2019</h6>
+                        <p class="card-text">A year ago I was fresh out of law school working as a corporate lawyer. I hated it. From a young age, I wanted to make a positive impact on... <a
+                            href="https://medium.com/hackernoon/my-plan-to-code-a-paperless-future-dea0571812e4" target="_blank">Read more</a> </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="text-muted">10 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
               </div>
             </div>
+
           </div>
+          <!-- carousel end -->
+
         </div>
 
       </div>
